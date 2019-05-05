@@ -1,0 +1,30 @@
+* {
+  color: #012345;
+  background-color: #fedcba;
+}
+
+/* class is higher priority than element selector, so...*/
+.blue {
+  color: #2233ae7f; /* half transparent due to 7f at the end */
+}
+
+/* .blue wins over h1 */
+h1 {
+  color: green;
+}
+
+body {
+  color: red;
+  font-size: 40px;
+}
+
+.box {
+  height: 5em;
+  width: 20%;
+  padding: 20px;
+  margin: 50px;
+  border: 20px solid black;
+  border-radius: 10px;
+  background-color: red;
+}
+
